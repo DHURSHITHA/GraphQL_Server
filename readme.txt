@@ -66,19 +66,19 @@ mutation {
 
 
 
-5️⃣ Patch Only Status
+ Patch Only Status
 mutation {
   patchTaskStatus(id:"PUT_ID", status:"DONE") {
     id title status
   }
 }
 
-🧩 6️⃣ Delete Task
+ Delete Task
 mutation {
   deleteTask(id:"PUT_ID")
 }
 
-🧩 7️⃣ Add Comments
+Add Comments
 
 If your schema supports nested comments:
 
@@ -91,7 +91,7 @@ mutation {
   }
 }
 
-🧩 8️⃣ Add History Log
+Add History Log
 mutation {
   updateTask(id:"PUT_ID", input:{
     title:"Add History",
